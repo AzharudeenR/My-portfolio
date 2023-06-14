@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        /* .wrapper
+        {
+            display: inline-flex;
+        }
+        .wrapper .static-txt
+        {
+            color: black;
+            font-size: 60px;
+            font-weight: 400;
+        }
+        .wrapper .dynamic-txt
+        {
+            margin-left: 15px;
+            height: 90px;
+            line-height: 90px;
+            /* background: teal; */
+            /* overflow: hidden;
+        }
+        .dynamic-txt li
+        {
+            color: #fc6d6d;
+            list-style: none;
+            font-size: 60px;
+            font-weight: 500;
+            position: relative;
+            top: 0;
+            animation: slide 8s steps(4) infinite;
+        }
+        @keyframes slide
+        {
+            100%
+            {
+                top: -360px;
+            }
+        }
+        
+        .dynamic-txt li span
+        {
+            position: relative;
+        }
+        .dynamic-txt li span::after
+        {
+            content: "";
+            position: absolute;
+            left: 0;
+            background: black;
+            height: 100%;
+            width: 100%;
+            border-left: 2px solid #fc6d6d;
+            animation: typing 2s steps(11) infinite;
+        }
+        @keyframes typing
+        {
+            100%
+            {
+                left: 100%;
+                margin: 0 -35px 0 35px;
+            }
+        }  */
+    </style>
+</head>
+<body>
+    
+
+    <style>
+        /* CSS Animation */
+        @keyframes typewriter {
+            0% {
+                width: 0;
+            }
+            20% {
+                width: 100%;
+            }
+            25% {
+                width: 100%;
+            }
+            45% {
+                width: 0;
+            }
+            50% {
+                width: 0;
+            }
+            70% {
+                width: 100%;
+            }
+            75% {
+                width: 100%;
+            }
+            95% {
+                width: 0;
+            }
+            100% {
+                width: 0;
+            }
+        }
+        
+        /* Apply the animation to the dynamic text */
+        .dynamic-txt li span.name-color {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typewriter 8s steps(20) infinite;
+        }
+        
+        /* Delay each word */
+        .dynamic-txt li:nth-child(2) span.name-color {
+            animation-delay: 2s;
+        }
+        
+        .dynamic-txt li:nth-child(3) span.name-color {
+            animation-delay: 4s;
+        }
+        
+        .dynamic-txt li:nth-child(4) span.name-color {
+            animation-delay: 6s;
+        }
+    </style>
+    
+    <div class="wrapper d-inline-flex">
+        <div class="static-txt">I'm a</div>
+        <ul class="dynamic-txt">
+            <li><span class="name-color">Developer</span></li>
+            <li><span class="name-color">Designer</span></li>
+            <li><span class="name-color">Freelancer</span></li>
+            <li><span class="name-color">Nature Lover</span></li>
+        </ul>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
