@@ -33,7 +33,7 @@ body
         }
         .wrapper .dynamic-txt
         {
-            margin-left: 15px;
+            /* margin-left: 15px; */
             height: 90px;
             line-height: 90px;
             /* background: teal; */
